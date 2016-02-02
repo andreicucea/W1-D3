@@ -1,0 +1,165 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url(fonts/Comfortaa_Regular.ttf);
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+body {
+  background-color: #ADDBA4;
+}
+
+.outer-test {
+  display: inline-flex;
+}
+
+.container {
+  box-shadow: 0px 0px 50px -5px rgba(0,0,0,0.75);
+  margin: 120px auto 0;
+  width: 1100px;
+  height: 700px;
+  background-color: #fff;
+  vertical-align: middle;
+  position: relative;
+
+}
+
+.topside {
+  border-bottom: 2px solid #EFEFEF;
+  height: 98px;
+}
+
+.topside a {
+  white-space: pre;
+  display: inline-block;
+  /*margin: 36px 0 0 40px;*/
+  color: #6B6B6B;
+  /*font-size: 27px;*/
+  font-family: Comfortaa;
+  text-decoration: none;
+  /*cursor: pointer;*/
+}
+
+.topleft {
+  position: relative;;
+  top: 50%;
+  transform: translate(0, -50%);
+  /*text-indent: 10px;*/
+}
+
+.topleft a {
+  font-size: 27px;
+  line-height: 50px;
+  padding: 0 10px;
+  margin-left: 20px;
+}
+
+.topright a {
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 100px;
+  /*margin: 3px 30px 0 0;*/
+  /*text-indent: 30px;*/
+  padding: 0 27px;
+}
+
+.bottomside {
+  height: 600px;
+}
+
+.bottomleft {
+  border-right: 2px solid #EFEFEF;
+  width: 438px;
+  height: 100%;
+}
+
+.bottomleft img {
+  margin-top: 105px;
+  height: auto;
+  width: 100%;
+}
+
+.bottomright {
+  width: 660px;
+  height: 600px;
+}
+
+.bottomright h1 {
+  margin: 60px 0 0 50px;
+  font-family: Comfortaa;
+  font-size: 40px;
+  color: #515151;
+  cursor: default;
+}
+
+.bottomright h2 {
+  margin: 5px 0 0 50px;
+  color: #a1a1a1;
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: normal;
+  cursor: default;
+}
+
+.bottomright h3 {
+  margin: 45px 0 0 50px;
+  font-family: Comfortaa;
+  font-size: 46px;
+  cursor: default;
+  color: #515151;
+}
+
+.bottomright h4 {
+  margin: 45px 0 0 50px;
+  font-family: Comfortaa;
+  color: #6B6B6B;
+  font-size: 19px;
+  cursor: default;
+  font-weight: normal;
+}
+
+.button-wrap {
+  margin: 65px 0 0 50px;
+}
+
+.button-wrap button {
+  background-color: #fff;
+  font-size: 18px;
+  color: #6b6b6b;
+  border: 1px solid #a1a1a1;
+  padding: 10px 35px;
+  margin-right: 8px;
+  cursor: pointer;
+  width: 35%;
+}
+
+button span {
+  font-family: Comfortaa;
+}
